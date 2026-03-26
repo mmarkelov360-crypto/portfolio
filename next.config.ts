@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // УБЕРИ output: 'export' для Vercel!
+  // output: 'export',  ← ЗАКОММЕНТИРУЙ ИЛИ УДАЛИ
+  
   images: {
-    unoptimized: true,
+    // unoptimized: true,  ← тоже закомментируй
   },
-  basePath: '/portfolio',
-  trailingSlash: true,
+  // basePath: '/portfolio',  ← тоже закомментируй для Vercel
 };
 
 export default nextConfig;
