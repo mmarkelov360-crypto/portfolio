@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // для статического экспорта
+  output: 'export',
   images: {
-    unoptimized: true,  // для работы изображений
+    unoptimized: true, // Обязательно для GitHub Pages
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig

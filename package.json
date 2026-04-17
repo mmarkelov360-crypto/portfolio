@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "portfolio_teo",
+=======
+  "name": "portfolio",
+>>>>>>> 79aa2faa7ce58d26a7fc84db93a365cf8141666d
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +13,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "emailjs-com": "^3.2.0",
@@ -34,6 +39,21 @@
     "eslint-config-next": "16.2.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.4.1",
+=======
+    "next": "16.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+>>>>>>> 79aa2faa7ce58d26a7fc84db93a365cf8141666d
     "typescript": "^5"
   }
 }
